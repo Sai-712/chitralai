@@ -14,7 +14,7 @@ const HowItWorks = () => {
     },
     {
       title: 'Get your photos',
-      description: 'Guests can view, buy, download & share photos',
+      description: 'Guests can view, download & share photos',
       image: '/Get your photos .jpeg '
     }
   ];
@@ -35,11 +35,11 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div className="relative">
-                <div className="mb-6 rounded-2xl flex items-center justify-center rounded-2xl bg-blue-100 p-4 shadow-lg ring-1 ring-gray-900/10">
+                <div className="mb-6 rounded-2xl flex items-center justify-center rounded-2xl bg-blue-100 p-3 sm:p-4 shadow-lg ring-1 ring-gray-900/10 w-48 h-48 sm:w-64 sm:h-64 mx-auto">
                   <img
                     src={step.image}
                     alt={step.title}
-                    className="h-full w-full object-contain"
+                    className="max-h-full max-w-full object-contain"
                   />
                 </div>
                 <div className="absolute -left-4 -top-4 flex h-8 w-8 items-center justify-center rounded-full bg-blue-500 text-white">
