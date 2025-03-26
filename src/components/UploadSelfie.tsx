@@ -840,11 +840,11 @@ const UploadSelfie = () => {
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
                     {matchedImages.map((url, index) => (
-                      <div key={index} className="relative group">
+                      <div key={index} className="relative group aspect-square">
                         <img
                           src={url}
                           alt={`Match ${index + 1}`}
-                          className="w-full h-40 object-cover rounded-lg shadow-sm"
+                          className="w-full h-full object-cover rounded-2xl shadow-sm"
                           onClick={() => setSelectedImage(url)}
                         />
                         <button
