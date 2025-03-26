@@ -134,8 +134,6 @@ const Hero: React.FC<HeroProps> = ({ onShowSignIn }) => {
     }
   ];
 
- 
-
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -233,9 +231,7 @@ const Hero: React.FC<HeroProps> = ({ onShowSignIn }) => {
         </div>
       </div>
 
-     
-
-      {/* Features Section */}
+      {/* Features Section 
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
@@ -260,9 +256,9 @@ const Hero: React.FC<HeroProps> = ({ onShowSignIn }) => {
             </dl>
           </div>
         </div>
-      </div>
+      </div>  */}
 
-      {/* Use Cases Section */}
+      {/* Use Cases Section 
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
@@ -284,14 +280,10 @@ const Hero: React.FC<HeroProps> = ({ onShowSignIn }) => {
                   </dd>
                 </div>
               ))}
-            
-
-      
-            
             </dl>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
